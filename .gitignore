@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Node
+node_modules/
+.next/
+out/
+.pnpm-store/
+
+# Env
+.env
+*.env.local
+
+# Docker
+*.pid
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Models
+*.pt
+*.onnx
+!apps/edge/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# MinIO data
+data/
+
+# Alembic
+apps/api/alembic/versions/*.pyc
